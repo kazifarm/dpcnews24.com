@@ -1,0 +1,1013 @@
+
+
+/* Extra small devices (phones, 400px and down) */
+/* @media only screen and (max-width: 400px) {
+    
+    .header-area .header-top .logo img {
+        width: 100%;
+    } 
+    .hednews article h2 {
+        font-size: 30px;
+    }
+    .header-area menu {
+        background-color: #50AC2B;
+        height: 40px;
+        margin-top: 20px;
+    }
+    .header-area .news_ticker {
+        display: none;
+    }
+
+    #latest-hdn .hednews {
+        width: 100%;
+        float: left;
+        margin-top: -50px;
+        margin-bottom: 20px;
+    }
+    #latest-hdn .letest-news {
+        width: 100%;
+        margin-right: -15px;
+        margin-top: -110px;
+        padding-right: 30px;
+    }
+    #latest-hdn .nws-divider{
+        display: none;
+    }
+    
+    #ds-nws .des-nws-section article{
+        margin-bottom: 30px;
+    }
+    #ds-nws .nws-divider{
+        display: none;
+    }
+
+    #news-cetagory .nws-ctg-left-area{
+        border: none;
+        padding-right: 0px;
+    }
+    #news-cetagory .nws-ctg-left-area section{
+        margin-bottom: 30px;
+    }
+    #hide-div{
+        display: none;
+    }
+
+    #news-cetagory .left-cent-add img{
+        width: 100%;
+        padding-right: 15px;
+    }
+    #ent-slider{
+        height: 300px;
+    }
+    #sports-news{
+        margin-top: 15px;
+    }
+    #sports-news article{
+        margin-bottom: 30px;
+    }
+
+
+
+
+    #site-footer{
+        margin-top: 0px;
+    }
+    #site-footer .footer-top{
+       height: 500px;
+    }
+    #site-footer .footer-top .edit-img{
+        margin-left: -70px;
+    }
+    #site-footer .footer-top .edit-info{
+        color: #fff;
+        font-weight: 500;
+        padding-top: 10px;
+        border-right: 0px;
+        margin-left: 0px;
+    }
+
+    #site-footer .footer-top article{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 17px;
+    }
+    #site-footer .footer-top article h4{
+        float: left;
+        text-align: center;
+        font-size: 17px;
+    }
+    #site-footer .footer-top .off-adrs{
+        padding-top: 20px;
+        text-align: center;
+        font-size: 20px;
+    }
+    #site-footer .footer-buttom{
+        height: 225px;
+    }
+    #site-footer .footer-buttom .ftr-menu{
+        margin: 0px;
+    }
+    #site-footer .footer-buttom .ftr-menu ul li{
+        padding: 12px;
+        border-right: none;
+    }
+
+    #site-footer .footer-buttom .copyrit p {
+        margin-top: 20px;
+        float: none;
+        text-align: center;
+    
+    }
+
+
+}  */
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    
+
+    /* Start Index Page CSS */
+    #hide-div{
+        visibility: hidden;
+    }
+
+    #page-header .header-area {
+        width: 100%;
+    }
+    header .header-area .header-top {
+        height: 100px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    header .header-area .header-top .logo img {
+        width: 100%;
+    } 
+    header .header-area .header-top-banner img {
+        visibility: hidden;
+    }
+    header .header-area menu {
+        height: 40px;
+        position: relative;
+        z-index: 2;
+    }
+    .header-area menu nav {
+    }
+    menu nav .login-left {
+        margin-left: 20px;
+    }
+    .header-area .news_ticker {
+        display: none;
+    }
+
+    menu .navbar-nav .nav-item a{
+        padding-left: 23px;
+   }
+    nav .form-inline{
+        display: none;
+    }
+
+    .hednews article h2 {
+        font-size: 30px;
+    }
+    #latest-hdn .hednews article {
+        padding: 0px;
+    }
+    #latest-hdn .hednews {
+        max-width: 650px;
+        height: 430px;
+    }
+
+    #latest-hdn .letest-news {
+        max-width: 525px;
+        width: 100%;
+        border: none;
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+    
+    #ds-nws .des-nws-section article{
+        margin-bottom: 30px;
+    }
+
+    #news-cetagory .nws-ctg-left-area{
+        border-right: none;
+        padding-right: 0px;
+    }
+    #news-cetagory .nws-ctg-left-area section{
+        padding-bottom: 30px;
+    }
+    #news-cetagory .nws-ctg-left-area .left-cent-add img{
+        width: 100%;
+        padding-right: 15px;
+    }
+
+    #ent-slider {
+        height: 370px;
+        margin-bottom: 15px;
+    }
+    #sports-news{
+        margin-top: 15px;
+    }
+    #sports-news article{
+        padding-bottom: 15px;
+    }
+
+    /* Start Footer Section */
+
+    #site-footer{
+        margin-top: 0px;
+    }
+    #site-footer .footer-top{
+       height: 660px;
+    }
+    #site-footer .footer-top .edit-info{
+        border-right: 0px;
+        margin-left: 0px;        
+        padding-top: 30px;
+    }
+    #site-footer .footer-top .edit-img img{
+        margin-left: 100px;
+        border: 1px solid #fff;
+        margin-top: 10px;
+    }
+    
+    #site-footer .footer-top article{
+        font-size: 20px;
+        width: 340px;
+    }
+    #site-footer .footer-top article h4{
+        width: 400px;
+        font-size: 20px;
+            
+    }
+    #site-footer .footer-top .off-adrs{
+        padding-top: 20px;
+        text-align: center;
+        font-size: 20px;
+    }
+    #site-footer .footer-buttom{
+        height: 150px;
+    }
+    #site-footer .footer-buttom .ftr-menu {
+        margin: 0 auto;
+        font-size: 16px;   
+    }
+    #site-footer .footer-buttom .copyrit p{
+        float: left;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    /* END Index Page CSS */
+
+
+
+    /* Start Cetagory Pages Page CSS */
+
+    section h3{
+        padding-top: 20px;
+    }
+    section .blog_left_single_item {
+        margin-bottom: 30px;
+    }
+    section .blog_pic {
+        text-align: center;
+    }
+
+    /* END Cetagory Pages Page CSS */
+
+    /* Start Single Details Page CSS */
+
+    #page-title .page-title-banner-content{
+        width: 450px;
+        text-align: center;
+    }
+    #page-title h2 {
+        font-size: 35px;
+    }
+    #page-title .text-deco{
+        font-size: 20px;
+    }
+    #dtls_news_page_area.nws_tag a:hover {
+        color: red;
+    }
+    #dtls_news_page_area .share_nws_single_in_social h4 a {
+        font-size: 25px;
+        padding-right: 30px;
+    }
+    #dtls_news_page_area .share_nws_single_in_social h4 a:hover{
+        color: red;
+    }
+    #dtls_news_page_area .nws_a_text h5 a {
+        font-size: 25px;
+    }
+    /* END Single Details Page CSS */
+    
+    /* Start journalist Page CSS */
+    /* END journalist Page CSS */
+
+    /* Start About Page CSS */
+    /* END About Page CSS */
+
+    /* Start Contact Page CSS */
+    /* END Contact Page CSS */
+
+
+
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+     
+    /* Start Index Page CSS */
+    #hide-div{
+        visibility: hidden;
+    }
+
+    header .header-area .header-top {
+        text-align: center;
+        height: 35px;
+    }
+    .header-area .header-top-banner img{
+        visibility: hidden;
+    }
+
+    .header-area .news_ticker {
+        visibility: hidden;
+    }
+    menu nav form{
+        visibility: hidden;
+    }
+    menu .navbar-nav .nav-item a{
+        padding-left: 23px;
+   }
+
+
+   header .header-area menu {
+        height: 43px;
+        position: relative;
+        z-index: 2;
+    }
+    menu nav .login-left {
+        margin-left: 20px;
+    }
+    #latest-hdn {
+        margin-bottom: 0px;
+    }
+    #latest-hdn .hednews article {
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+    #latest-hdn .letest-news {
+        border-left: none;
+        border-bottom: none;
+        padding-left: 15px;
+    }
+    
+    #ds-nws {
+        margin-top: -40px;
+        margin-bottom: -20px; 
+    }
+    #ds-nws article{
+        margin-bottom: 15px;
+    }
+    #news-cetagory{
+        margin-top: -70px;
+    }
+    #news-cetagory .nws-ctg-left-area {
+        border-right: none;
+        padding-right: 0px;    
+    }
+    #news-cetagory .nws-ctg-left-area section{
+        margin-top: 30px;
+    }
+    #news-cetagory .left-cent-add {
+        max-width: 526px;
+        margin-top: -20px;
+        margin-bottom: -35px;
+
+    }
+    #ent-slider {
+        padding-top: 30px;
+        margin-bottom: -50px;    
+    }
+    #sports-news{
+        margin-top: -40px;
+    }
+    #sports-news article{
+        padding-bottom: 15px;
+    }
+
+
+
+
+    /* Start Footer Section */
+
+    #site-footer{
+        margin-top: 0px;
+    }
+    #site-footer .footer-top{
+       height: 550px;
+    }
+    #site-footer .footer-top .edit-info{
+        border-right: 0px;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    #site-footer .footer-top .edit-img img{
+        margin-left: 150px;
+        max-width: 180px;
+        border: 1px solid #fff;
+    }
+    
+    #site-footer .footer-top article{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        width: 400px;
+    }
+    #site-footer .footer-top article h4{
+        text-align: center;
+        font-size: 22px;
+        width: 445px;
+    }
+    #site-footer .sign_up {
+        margin-top: 0px;
+    }
+    #site-footer .footer-top .off-adrs{
+        padding-top: 10px;
+        text-align: center;
+        font-size: 20px;
+    }
+    #site-footer .sign_up input {
+        width: 79%;
+    }
+    #site-footer .footer-buttom{
+        height: 130px;
+    }
+    #site-footer .footer-buttom .ftr-menu {
+        margin-left: 50px;    
+    }
+    #site-footer .footer-buttom .copyrit p{
+        font-size: 25px;
+        margin-top: 20px;
+        float: none;
+        text-align: center;
+    }
+
+    /* END Index Page CSS */
+
+
+
+    /* Start Cetagory Pages Page CSS */
+
+    section h3{
+        padding-top: 20px;
+    }
+    section .blog_left_single_item {
+        margin-bottom: 30px;
+    }
+    section .blog_pic {
+        text-align: center;
+    }
+
+    /* END Cetagory Pages Page CSS */
+
+    /* Start Single Details Page CSS */
+    /* END Single Details Page CSS */
+    
+    /* Start journalist Page CSS */
+    /* END journalist Page CSS */
+
+    /* Start About Page CSS */
+    /* END About Page CSS */
+
+    /* Start Contact Page CSS */
+    /* END Contact Page CSS */
+
+
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+
+
+    /* Start Index Page CSS */
+    header .header-area .header-top {
+        height: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;    
+    }
+    .header-area .header-top-banner img{
+        width: 100%;
+        visibility: visible;
+    }
+
+   .news_ticker form{
+        visibility: visible;
+    }
+
+    menu .navbar-nav .nav-item a{
+            padding-left: 23px;
+    }
+
+    #hide-div{
+        visibility: hidden;
+    }
+    #latest-hdn {
+            margin-bottom: -110px;
+        }
+    #latest-hdn .hednews {
+            max-width: 400px;
+            margin-right: 0px;
+    }
+    #latest-hdn .hednews article h2 {
+            position: absolute;
+            font-size: 25px;
+            font-weight: 600;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+        }
+    #latest-hdn .letest-news {
+            max-width: 320px;
+    }
+    #latest-hdn .letest-news .letest-rit-nws li:last-child{
+        visibility: hidden;
+    }
+    #latest-hdn .letest-news .letnews-content img{
+            margin-right: 15px;
+            float: left;    
+            width: 50px;    
+            height: 50px;
+    }
+    #latest-hdn .letest-news .letnews-content h5 a{
+            font-size: 15px;
+    }
+
+    #ds-nws{
+        margin-bottom: 50px;
+    }
+    #ds-nws h4{
+        font-size: 18px
+    }
+
+    .nws-ctg-left-area h4{
+        font-size: 18px
+    }
+
+    #right-sidbar{
+
+    }
+    #right-sidbar section .socialmedia{
+        margin-bottom: 30px;
+    }
+    #right-sidbar .sm-box ul {
+        margin-top: -10px;
+    }
+    #right-sidbar .sm-box ul li {
+       width: 50px;
+       height: 50px;       
+       text-align: center;  
+       line-height: 0px;
+    }
+    #right-sidbar .sm-box ul li i{
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    #news-cetagory .left-cent-add {
+        max-width: 465px;
+        margin-top: -30px;
+        margin-bottom: -15px;
+    }
+    #news-cetagory .col-md-6 section{
+        margin-top: 0px;
+    }
+    #ent-slider{
+        padding-top: 0;
+        margin-bottom: -120px;
+    }
+
+    #sports-news h4{
+        font-size: 18px;
+    }
+
+
+    #site-footer .footer-top {
+        height: 350px;    
+    }
+    #site-footer .footer-top .edit-img img {
+        margin-left: 130px;
+        max-width: 120px;
+        border: 1px solid #fff;
+    
+    }
+
+    #site-footer .footer-top .edit-info {
+        margin-top: 100px;
+        margin-left: -100px;
+    }
+    #site-footer .footer-top article {
+        margin-top: 50px;
+    }
+    #site-footer .footer-top article h4 {
+        text-align: justify;
+        font-size: 20px;
+    }
+    #site-footer .col-md-4 {
+        padding-top: 30px;    
+    }
+
+    #site-footer .sign_up input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #site-footer .sign_up button{
+        margin-left: 0px;
+        padding: 6px 77px;
+    }
+    #site-footer .footer-buttom {
+        height: 100px;
+    }
+    #site-footer .footer-buttom .ftr-menu {
+        margin-left: -20px;
+        margin-top: 15px;
+    }
+    #site-footer .footer-buttom .copyrit p{
+        margin-top: -12px;
+        font-size: 18px;        
+        width: 335px;        
+        margin-left: -84px;
+    }
+
+    /* END Index Page CSS */
+
+
+
+    /* Start Cetagory Pages Page CSS */
+
+    section h3{
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    section .blog_left_single_item {
+        margin-bottom: 30px;
+    }
+    section .blog_pic {
+        text-align: center;
+    }
+    #right-sidbar .letest-news article img {
+        visibility: hidden;
+    }
+    #right-sidbar .letest-news article h5{
+        font-size: 18px;
+        position: absolute;
+        padding-right: 4px;
+        overflow: hidden;
+    }
+    /* END Cetagory Pages Page CSS */
+
+    /* Start Single Details Page CSS */
+    /* END Single Details Page CSS */
+    
+    /* Start journalist Page CSS */
+    /* END journalist Page CSS */
+
+    /* Start About Page CSS */
+    /* END About Page CSS */
+
+    /* Start Contact Page CSS */
+    /* END Contact Page CSS */
+
+    
+}
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+     
+    /* Start Index Page CSS */
+    header .header-area .header-top {
+        height: 90px;   
+    }
+    .login-left {
+        visibility: collapse;
+    }
+
+    .header-area .news_ticker {
+        visibility: visible;
+    }
+    menu nav .form-inline{
+        visibility: visible;
+        margin-left: -180px;
+    }
+    menu nav ul {
+        margin-left: 0px;
+    }
+    menu form #frm-grp {
+        right: -50px;
+    }
+    menu form .src-icon {
+        right: 180px;
+    }
+    #latest-hdn {
+        margin-bottom: -140px;
+    }
+    #latest-hdn .hednews {
+        max-width: 600px;
+    }
+    #latest-hdn .hednews article img {
+        width: 100%;
+        padding: 0px 20px 0px;
+    }
+    #latest-hdn .hednews article h2 {
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    #latest-hdn .letest-news {
+        max-width: 360px;
+    }
+    #latest-hdn .letest-news .letnews-content h5 a {
+        font-size: 18px;
+    }
+    #latest-hdn .letest-news .letnews-content img {
+        width: 60px;
+        height: 60px;
+        margin-top: 8px;
+    }
+    #ds-nws h4 {
+        font-size: 20px;
+    }
+
+    .nws-ctg-left-area h4 {
+        font-size: 20px;
+    }
+
+    #news-cetagory .left-cent-add {
+        max-width: 625px;
+        margin-bottom: 5px;
+    }
+
+    #ent-slider {
+        margin-bottom: -20px;
+    }
+
+    #right-sidbar .sm-box{
+        height: 190px;
+    }
+
+    #ent-slider .carousel-caption {
+        margin-bottom: 20px;
+    }
+
+    #sports-news h4 {
+        font-size: 20px;
+    }
+
+
+
+
+    #site-footer .footer-top {
+        height: 200px;    
+    }
+    #site-footer .footer-top .edit-img img {
+        margin-left: 0px;
+    }
+    #site-footer .footer-top .edit-info {
+        margin-top: -10px;
+        margin-left: 40px;
+        border-right: 1px solid #fff;
+    }
+    #site-footer .footer-top .off-adrs {
+        padding-top: 0px;
+        font-size: 18px;    
+    }
+    #site-footer .footer-top .col-md-4{
+        margin-top: -20px;
+    }
+    #site-footer .footer-top article {
+        margin-top: 20px;
+        margin-left: -20px;
+    }
+
+    #site-footer .sign_up input {
+        width: 204px;
+        margin-bottom: 20px;
+    }
+    #site-footer .sign_up button{
+        margin-left: 5px;
+        padding: 5px 10px;
+    }
+    #site-footer .footer-buttom {
+        height: 100px;
+    }
+    #site-footer .footer-buttom .ftr-menu {
+        margin-left: 0px;
+        margin-top: 15px;    
+    }
+    #site-footer .footer-buttom .copyrit p{
+        margin-top: -16px;
+        font-size: 24px;
+        width: 430px;
+        margin-left: -130px;
+    }
+
+    /* END Index Page CSS */
+
+
+
+    /* Start Cetagory Pages Page CSS */
+
+    section h3{
+        padding-top: 20px;
+    }
+    section .blog_left_single_item {
+        margin-bottom: 30px;
+    }
+    section .blog_pic {
+        text-align: center;
+    }
+    #right-sidbar .letest-news article img {
+        width: 50px;
+        visibility: visible;
+        margin-top: 7px;
+    }
+    #right-sidbar .letest-news article h5{
+        font-size: 18px;
+        padding-right: 4px;
+        margin-left: 60px;
+    }
+    /* END Cetagory Pages Page CSS */
+
+    /* Start Single Details Page CSS */
+    /* END Single Details Page CSS */
+    
+    /* Start journalist Page CSS */
+    /* END journalist Page CSS */
+
+    /* Start About Page CSS */
+    /* END About Page CSS */
+
+    /* Start Contact Page CSS */
+    /* END Contact Page CSS */
+
+    
+ }
+
+
+
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+
+
+    /* Start Index Page CSS */
+    header .header-area .header-top {
+        height: 110px; 
+    }
+    .login-left{
+        visibility: hidden;
+    }
+    menu nav .form-inline{
+        visibility: visible;
+        margin-left: 0px;
+    }
+    #navbarSupportedContent {
+        margin-left: -100px;
+    }
+    menu form .src-icon {
+        right: 0px;
+    }
+    menu form #frm-grp {
+        right: -220px;
+    }
+    #latest-hdn {
+        margin-bottom: 0px;
+        overflow: hidden;
+    }
+    #latest-hdn .hednews {
+        max-width: 690px;
+        float: left;
+    }
+    #latest-hdn .hednews article h2 {
+        font-size: 40px;
+        left: 20px;
+        right: 30px;
+    }
+    #latest-hdn .letest-news {
+        max-width: 450px;
+        right: -20px;
+        margin-top: -500px;
+    }
+    #latest-hdn .letest-news .letnews-content img {
+        width: 70px;
+        height: 70px;
+        margin-top: 0px;
+    }
+    #latest-hdn .letest-news .letnews-content h5 a {
+        font-size: 22px;
+    }
+    #latest-hdn .letest-news .letest-rit-nws li:last-child{
+        visibility: visible;
+    }
+    #hide-div{
+        visibility: visible;
+        overflow: hidden;
+    }
+
+    #ds-nws {
+        margin-top: 0;
+    }
+    #news-cetagory {
+        margin-top: -20px;   
+    }
+    #news-cetagory .left-cent-add {
+        max-width: 745px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 150px;
+    }
+    .nws-ctg .left-cent-add img {
+        width: 100%;    
+    }
+
+    #ent-slider {
+        margin-bottom: 5px;
+    }
+    #ent-slider .carousel-caption {
+        margin-bottom: 40px;
+    }
+    #ent-slider .carousel-caption h2{
+        color: #fff;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    #ent-slider .carousel-caption h2:hover{
+        color: red;
+    }
+
+    #sports-news {
+        margin-top: 0px;
+    }
+
+
+
+
+
+
+
+
+
+    #site-footer .sign_up input {
+        width: 264px;
+    }
+    #site-footer .footer-buttom .copyrit p{
+        margin-top: -16px;
+        font-size: 24px;
+        width: 430px;
+        margin-left: -80px;
+    }
+
+
+    /* END Index Page CSS */
+
+
+
+    /* Start Cetagory Pages Page CSS */
+
+    section h3{
+        padding-top: 20px;
+        font-size: 24px;
+    }
+    section .blog_left_single_item {
+        margin-bottom: 30px;
+    }
+    section .blog_pic {
+        text-align: center;
+    }
+    #right-sidbar .letest-news article img {
+        width: 70px;
+    }
+    #right-sidbar .letest-news article h5{
+        font-size: 22px;
+        padding-right: 4px;
+        margin-left: 80px;
+    }
+    #right-sidbar .letest-news .letest-rit-nws ul li {
+        padding-bottom: 0px;
+    }
+    /* END Cetagory Pages Page CSS */
+
+    /* Start Single Details Page CSS */
+    /* END Single Details Page CSS */
+    
+    /* Start journalist Page CSS */
+    /* END journalist Page CSS */
+
+    /* Start About Page CSS */
+    /* END About Page CSS */
+
+    /* Start Contact Page CSS */
+    /* END Contact Page CSS */
+
+
+ }
+
